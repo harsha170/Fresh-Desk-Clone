@@ -26,8 +26,8 @@ git.addEventListener('submit', function(e){
                 document.getElementById('repositories').innerHTML+=`
                 <div id="card" style="width: 18rem;" >
                     <div class="card-body">
-                        <h5 class="card-title">${x.name}</h5>
-                        <a href="${x.html_url}">${x.full_name}</a>
+                         <h5 class="card-title" style="font-size:15px">${x.name}</h5>
+                        <a href="${x.html_url}" style="font-size:12px">${x.full_name}</a>
                     </div>
                     </div>
                 
