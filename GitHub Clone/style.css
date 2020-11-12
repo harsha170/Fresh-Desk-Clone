@@ -40,7 +40,7 @@
     margin: 5px;
     background-color: whitesmoke;
     border-radius: 10px;
-    min-height: 225px;
+    min-height: 165px;
     border:solid rgb(124, 120, 120) 0.1px;
 }
 .popular{
@@ -67,4 +67,7 @@
 }
 .words{
     padding:8px;
+}
+#repositories{
+    margin-top: 15px;
 }
